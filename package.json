@@ -2,8 +2,10 @@
   "name": "dashboard-app",
   "version": "0.1.0",
   "author": "Aleksandr Berezin",
+  "homepage": "https://ab-cisco.github.io/frontend-mentor-dashboard-positions",
   "private": true,
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.6",
@@ -14,7 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
